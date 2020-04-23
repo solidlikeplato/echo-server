@@ -11,4 +11,3 @@
                       "\r\n\r\n")]
                       
       (is (= header (generate-response-header body))))))
-
